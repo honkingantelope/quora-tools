@@ -52,7 +52,7 @@ async function autoScroll(page){
             var totalHeight = 0;
             var distance = 800;
             var scrollCnt = 0;
-            var maxScroll = 50;//no more than 10 scrolls
+            var maxScroll = 20;//no more than 20 scrolls
             var waitDelay = 2000;
 
             var timer = setInterval(() => {
